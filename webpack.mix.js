@@ -17,6 +17,7 @@ mix
   .postCss('resources/css/app.css', 'static/css', [
     tailwindcss('./tailwind.js')
   ])
+  .setPublicPath('static')
 
 // Full API
 // mix.js(src, output);
