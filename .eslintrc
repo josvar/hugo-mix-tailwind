@@ -1,7 +1,0 @@
-{
-    "extends": ["eslint:recommended", "plugin:vue/recommended", "prettier"],
-    "env": {
-        "es6": true,
-        "node": true
-    }
-}
