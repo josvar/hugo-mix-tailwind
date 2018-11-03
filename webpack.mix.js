@@ -1,5 +1,5 @@
-let mix = require('laravel-mix')
-let tailwindcss = require('tailwindcss')
+const mix = require("laravel-mix");
+const tailwindcss = require("tailwindcss");
 
 /*
  |--------------------------------------------------------------------------
@@ -13,11 +13,11 @@ let tailwindcss = require('tailwindcss')
  */
 
 mix
-  .js('resources/js/app.js', 'static/js')
-  .postCss('resources/css/app.css', 'static/css', [
-    tailwindcss('./tailwind.js')
+  .js("resources/js/app.js", "assets/js")
+  .postCss("resources/css/app.css", "assets/css", [
+    tailwindcss("./tailwind.js")
   ])
-  .setPublicPath('static')
+  .setPublicPath("assets");
 
 // Full API
 // mix.js(src, output);

@@ -6,7 +6,9 @@
   "license": "MIT",
   "devDependencies": {
     "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
     "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-prettier": "^3.0.0",
     "laravel-mix": "^2.1.14",
     "tailwindcss": "^0.7.0"

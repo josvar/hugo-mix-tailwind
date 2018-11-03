@@ -1,3 +1,4 @@
 static/**/*.js
 static/**/*.css
 tailwind.js
+webpack.mix.js
