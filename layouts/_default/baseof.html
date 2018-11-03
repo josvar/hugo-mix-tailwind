@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{ block "head/meta" . }}{{ partials "head/meta" }}{{end}}
+  {{ block "head/seo" . }}{{ partials "head/seo" }}{{end}}
+  {{ block "head/favicons" . }}{{ partials "head/favicons" }}{{end}}
+  {{ block "head/styles" . }}{{ partials "head/styles" }}{{end}}
+  {{ block "head/scripts" . }}{{ partials "head/scripts" }}{{end}}
+</head>
+<body>
+
+  {{ block "header/header" . }}{{ partial "header/header" . }}{{end}}
+  {{/* block "header/leftbar" . }}{{ partial "header/leftbar" . }}{{end */}}
+  {{/* block "header/rightbar" . }}{{ partial "header/rightbar" . }}{{end */}}
+  {{/* block "headeroffcanvas" . }}{{ partial "headeroffcanvas" . }}{{end */}}
+
+  {{/* block "main/example" . }}{{ partial "main/example" . }}{{end */}}
+  {{ block "main" . }}{{end}}
+  {{/* block "main/example" . }}{{ partial "main/example" . }}{{end */}}
+
+  {{ block "footer/footer" . }}{{ partial "footer/footer" . }}{{end}}
+  {{ block "footer/scripts" . }}{{ partial "footer/scripts" . }}{{end}}
+
+</body>
+</html>
